@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wallpaper App</string>
+    <string name="ffmpeg_exec_gif_to_mp4">-i %1$s -movflags faststart -pix_fmt yuv420p -vf &quot;scale=trunc(iw/2)*2:trunc(ih/2)*2&quot; %2$s</string>
+    <string name="converting_dialog_msg">Converting gif, please wait...</string>
+</resources>
